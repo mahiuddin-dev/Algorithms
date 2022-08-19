@@ -14,7 +14,7 @@ int InsertionSort(int *arr, int size){
         }
         arr[j + 1] = key;
     }
-    return 0;
+    return *arr;
 }
 
 
